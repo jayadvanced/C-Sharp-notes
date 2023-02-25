@@ -20,7 +20,7 @@ my_string[3] = "Jay";
 Console.WriteLine(my_string[1]);
 ```
 
-### another way to create string
+### another way to create string Array
 ```
 string[] my_second_string = new string[] { "Hello", "My", "name is", "Jay 2" };
 
@@ -73,3 +73,72 @@ foreach (int item in multi_array)
 {
     Console.WriteLine(item);
 }
+```
+
+## Rectangular Array Or multidimensional Array:
+There are 3 ways to initialize multidimensional array in C# while declaration.
+
+```
+int[,] arr = new int[3, 3] {
+    { 1, 2, 3},
+    { 4, 5, 6}, 
+    { 7, 8, 9} 
+};
+
+//We can omit the array size.
+int[,] arr1 = new int[,] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+//We can omit the new operator also.
+int[,] arr2 ={ { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+```
+
+## JAGGED Array
+
+Is a multidimensional array where one of the specified dimensions can have varying sizes.
+
+Can have unequal number of columns for each row.
+
+```
+int[][] jagged_array = new int[3][];
+jagged_array[0] = new[] { 1, 2, 3 };
+jagged_array[1] = new[] { 1, 2, 3, 4, 5, 6 };
+jagged_array[2] = new[] { 1, 2, 3, 4 };
+
+Console.WriteLine(jagged_array[0][2]);
+
+for(int i=0; i<jagged_array.GetLength(0); i++)
+{
+    for(int j=0; j < jagged_array[i].Length; j++)
+    {
+        Console.Write(jagged_array[i][j]);
+    }
+    Console.WriteLine(" ");
+}
+
+foreach (int[] items in jagged_array)
+{
+    foreach(int i in items)
+    {
+        Console.Write(i);
+    }
+    Console.WriteLine(" ");
+}
+```
+
+## CREATING ARRAY WITH USER INPUT
+
+```
+Console.WriteLine("Enter total number of items");
+int num = int.Parse(Console.ReadLine());
+int[] numbers = new int[num];
+
+for (int i = 0; i < num; i++)
+{
+    int data = int.Parse(Console.ReadLine());
+    numbers[i] = data;
+}
+
+foreach (int item in numbers)
+{
+    Console.WriteLine(item);
+}
+```
