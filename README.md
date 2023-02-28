@@ -36,3 +36,7 @@ C# notes
 16. [Inheritance](inheritances.md)
 
 17. [Access Modifiers Public Private Protected](Access-modifiers.md)
+
+18. [Encapsulation](encapsulation.md)
+
+19. [Properties Get Set](properties-get-set.md)
