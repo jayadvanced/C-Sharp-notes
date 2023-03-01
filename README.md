@@ -40,3 +40,17 @@ C# notes
 18. [Encapsulation](encapsulation.md)
 
 19. [Properties Get Set](properties-get-set.md)
+
+20. [Method Hiding](method-hiding.md)
+
+21. [Method Overriding](method-overriding.md)
+
+22. [sealed class](sealed-class.md)
+
+23. [Indexes](indexer.md)
+
+24. [Delegate](delegate.md)
+
+25. [Anoymous Method](anoymous_fun.md)
+
+26. [Lambda Expression](lambda.md)
