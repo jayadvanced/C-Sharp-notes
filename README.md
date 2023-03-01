@@ -54,3 +54,9 @@ C# notes
 25. [Anoymous Method](anoymous_fun.md)
 
 26. [Lambda Expression](lambda.md)
+
+27. [Abstraction](abstraction.md)
+
+28. [Interface](interface.md)
+
+29. [Generics and Generics Method](generics.md)

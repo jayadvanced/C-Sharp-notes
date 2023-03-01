@@ -93,3 +93,22 @@ dc2.Show2();
 dc2.Show3();
 ```
 
+## Multiple Inheritance
+
+- there is no concept of multiple inheritance using classes
+
+-> there is concept of multiple inheritance using interface
+
+```
+class Person
+{
+
+}
+interface Employee
+{
+
+}
+class Teacher : Person, Employee
+{
+    
+}
