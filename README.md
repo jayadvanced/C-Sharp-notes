@@ -60,3 +60,7 @@ C# notes
 28. [Interface](interface.md)
 
 29. [Generics and Generics Method](generics.md)
+
+30. [Collection](collection.md)
+
+31. [HashTable](hashtable.md)
