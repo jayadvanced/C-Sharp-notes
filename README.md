@@ -64,3 +64,11 @@ C# notes
 30. [Collection](collection.md)
 
 31. [HashTable](hashtable.md)
+
+32. [Stack](stack.md)
+
+33. [Queue](queue.md)
+
+34. [Gereric Collection List](generic-collection.md)
+
+35. [Dictionary](dictionary.md)
