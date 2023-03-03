@@ -72,3 +72,5 @@ C# notes
 34. [Gereric Collection List](generic-collection.md)
 
 35. [Dictionary](dictionary.md)
+
+36. [Exception & Handling](exception-handling.md)
