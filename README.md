@@ -74,3 +74,9 @@ C# notes
 35. [Dictionary](dictionary.md)
 
 36. [Exception & Handling](exception-handling.md)
+
+37. [Partial Class](partial-class.md)
+
+38. [Params](params.md)
+
+39. [String & string Builder](string-string-builder.md)

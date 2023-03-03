@@ -175,3 +175,32 @@ Output:
 > Attempted to divide by zero.
 
 > Finally block Executed...
+
+
+## Throw Keyword
+
+```
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Enter your age=");
+        int age = int.Parse(Console.ReadLine());
+        try
+        {
+            if (age >= 18)
+            {
+                Console.WriteLine("You are eligible to vote");
+            }
+            else
+            {
+                throw new Exception("You are not eligible to vote");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+}
+```
