@@ -10,6 +10,16 @@ my_array[3] = 44;
 Console.WriteLine(my_array[1]);
 ```
 
+### Another way to create int Array
+
+```
+var numbers = new double[4] {12.7, 20.3, 6.22, 8.0}
+//or
+var numbers = new double[] {12.7, 20.3, 6.22, 8.0}
+//or
+var numbers = new[] {12.7, 20.3, 6.22, 8.0}
+```
+
 ## String Array
 ```
 string[] my_string = new string[4];
