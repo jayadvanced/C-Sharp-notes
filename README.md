@@ -85,10 +85,14 @@ C# notes
 
 41. [Hello World with args](hello-world.md)
 
-42. [ASP.net Web API](asp-dot-net-web-api.md)
+42. [Linq](linq.md)
 
-43. [Split string method](split-method.md)
+43. [Linq To Sql](linq_to_sql.md)
 
-44. [hash Set Method](hash-set.md)
+44. [ASP.net Web API](asp-dot-net-web-api.md)
 
-45. [linked list](linked-list.md)
+45. [Split string method](split-method.md)
+
+46. [hash Set Method](hash-set.md)
+
+47. [linked list](linked-list.md)
