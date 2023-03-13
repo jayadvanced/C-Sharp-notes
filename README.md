@@ -96,3 +96,7 @@ C# notes
 46. [hash Set Method](hash-set.md)
 
 47. [linked list](linked-list.md)
+
+48. [Linq to sql CRUD](linq-to-sql-crud.md)
+
+49. [IEnumerable](IEnumerable.md)

@@ -1,0 +1,2 @@
+- We Will Use Database First Approach Of Entity Framework In This Web API.
+- After Creating An API, We Are Going To Check That Web APl is Working Correctly Or Not.
