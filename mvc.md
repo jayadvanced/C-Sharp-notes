@@ -35,16 +35,21 @@ public IActionResult Index()
 }
 ```
 
-To add data context Steps:
+<b>To add data context Steps:</b>
 
 - install Microsoft.EntityFrameworkCore
 - Right click on controller folder
 - Add -> New Scaffolded Item 
 - MVC Controller with views, using Entity Framework
 - Model class -> select -> Book(MVCLibrary.Models)
-- Data context class -> click plus button -> add -> Add
+- Data context class : click plus button -> add -> Add
 
 Migration adding
 
 - PM> Add-Migration InitialCreate
 
+seeding -> create database with initial values
+
+After adding Author in app
+
+- PM> Add-Migration AddedBookAuthor
