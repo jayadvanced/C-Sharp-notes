@@ -39,3 +39,37 @@ install
 
 - two main OpenApi for .NET are Swashbuckle and NsWag.
 
+## Minimal Api
+
+install packages
+
+- Microsoft.EntityFrameworkCore.InMemory
+- Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.7.0.4
+
+remove content of program.cs
+
+```
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+var app = builder.Build();
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
+
+app.Run();
+```
+
+this is how we set up minimal Api in 
+GET Method
+```
+app.MapGet("shoppinglist", async (ApiDbContext db) =>
+       await db.Groceries.ToListAsync());
+```

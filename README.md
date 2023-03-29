@@ -104,3 +104,7 @@ C# notes
 50. [Asp.net MVC](middleware-mvc.md)
 
 51. [MVC](mvc.md)
+
+52. [web api](web-api.md)
+
+53. [Dependency Injection](Dependency-Injection.md)
